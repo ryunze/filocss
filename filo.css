@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+    /* background-color: red; */
+    padding: 1rem;
+    border-radius: .79em;;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.072);
+}
+
 .navbar {
     width: 100%;
     height: 4.2em;
@@ -34,4 +51,23 @@
 .navbar-links li a {
     text-decoration: none;
     color: inherit;
+}
+
+.navbar-links li a:hover {
+    color: blue;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 33.3333%;
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+    }
 }
