@@ -41,6 +41,14 @@
     margin-bottom: 1rem;
 }
 
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
 /* Margin Left */
 .ml-1 {
     margin-left: .25rem;

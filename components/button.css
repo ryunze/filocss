@@ -1,0 +1,15 @@
+.btn {
+    padding: 1em;
+    cursor: pointer;
+    border: none;
+}
+
+/* Custom Button */
+.btn-primary {
+    background-color: rgb(19, 19, 212);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: rgb(13, 13, 161);
+}
